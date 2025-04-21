@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SMK AL SAFITRI BUTON SELATAN</title>
+    <link rel="stylesheet" href="/css/styles.css" />
+    <link rel="stylesheet" href="/css/lain.css">
+</head>
+
+<body>
+
+    <!-- Header / Navigasi -->
+    <header class="navbar">
+        <div class="navbar-container">
+            <div class="navbar-left">
+                <img src="/img/logo.png" alt="Logo STMIK" class="logo" />
+                <h1 class="brand">SMK</h1>
+                <span class="subtitle">AL SAFITRI BUTON SELATAN</span>
+            </div>
+            <nav class="navbar-right">
+                <div class="hamburger" onclick="toggleMenu()">☰</div>
+                <ul class="nav-menu" id="navMenu">
+                    <li><a href="/index.html" class="active">Beranda</a></li>
+                    <li class="dropdown" onclick="toggleDropdown(this)">
+                        <a href="#">Profil ▾</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="profil.html">Profil</a></li>
+                            <li><a href="guru.html">Tenaga Pengajar</a></li>
+                            <li><a href="visi.html">Visi & Misi</a></li>
+                            <li><a href="#">Struktur Organisasi</a></li>
+                            <li><a href="#">Jurusan</a></li>
+                            <li><a href="#">Fasilitas</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Artikel</a></li>
+                    <li class="dropdown" onclick="toggleDropdown(this)">
+                        <a href="#">Informasi ▾</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Pengumuman</a></li>
+                            <li><a href="#">Agenda</a></li>
+                            <li><a href="#">Prestasi</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Kontak</a></li>
+                    <li><a href="#" class="login-btn">Login ➞</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+
+    <div class="guru-smk">
+        <h4>Tenaga Pengajar SMK Al Safitri</h4>
+        <table>
+            <tr>
+                <th>Nama</th>
+                <td><a href="">Muliana, S.Pd. </a></td>
+            </tr>
+            <tr>
+                <th></th>
+                <td><a href="">Eva Elviana, S.Pd.</a></td>
+
+            </tr>
+            <tr>
+                <th></th>
+                <td><a href="">.... </a></td>
+            </tr>
+            <tr>
+                <th></th>
+                <td><a href="">.... </a></td>
+            </tr>
+            <tr>
+                <th></th>
+                <td><a href="">.... </a></td>
+            </tr>
+            <tr>
+                <th></th>
+                <td><a href="">.... </a></td>
+            </tr>
+            <tr>
+                <th></th>
+                <td><a href="">.... </a></td>
+            </tr>
+            <tr>
+                <th></th>
+                <td><a href="">.... </a></td>
+            </tr>
+            <tr>
+                <th></th>
+                <td><a href="">.... </a></td>
+            </tr>
+            <tr>
+                <th></th>
+                <td><a href="">.... </a></td>
+            </tr>
+            <tr>
+                <th></th>
+                <td><a href="">.... </a></td>
+            </tr>
+            <tr>
+                <th></th>
+                <td><a href="">.... </a></td>
+            </tr>
+            <tr>
+                <th></th>
+                <td><a href="">.... </a></td>
+            </tr>
+            <tr>
+                <th></th>
+                <td><a href="">.... </a></td>
+            </tr>
+
+        </table>
+
+    </div>
+    </div>
+    </section>
+
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 SMK AL SAFITRI BUTON SELATAN. All rights reserved.</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+    <script>
+        function toggleMenu() {
+            const navMenu = document.getElementById("navMenu");
+            navMenu.classList.toggle("show");
+        }
+
+        function toggleDropdown(el) {
+            if (window.innerWidth <= 768) {
+                el.classList.toggle("active");
+            }
+        }
+    </script>
+
+</body>
+
+</html>

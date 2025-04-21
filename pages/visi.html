@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SMK AL SAFITRI BUTON SELATAN</title>
+    <link rel="stylesheet" href="/css/styles.css" />
+    <link rel="stylesheet" href="/css/lain.css">
+</head>
+
+<body>
+
+    <!-- Header / Navigasi -->
+    <header class="navbar">
+        <div class="navbar-container">
+            <div class="navbar-left">
+                <img src="/img/logo.png" alt="Logo STMIK" class="logo" />
+                <h1 class="brand">SMK</h1>
+                <span class="subtitle">AL SAFITRI BUTON SELATAN</span>
+            </div>
+            <nav class="navbar-right">
+                <div class="hamburger" onclick="toggleMenu()">☰</div>
+                <ul class="nav-menu" id="navMenu">
+                    <li><a href="/index.html" class="active">Beranda</a></li>
+                    <li class="dropdown" onclick="toggleDropdown(this)">
+                        <a href="#">Profil ▾</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="profil.html">Profil</a></li>
+                            <li><a href="guru.html">Tenaga Pengajar</a></li>
+                            <li><a href="#">Visi & Misi</a></li>
+                            <li><a href="#">Struktur Organisasi</a></li>
+                            <li><a href="#">Jurusan</a></li>
+                            <li><a href="#">Fasilitas</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Artikel</a></li>
+                    <li class="dropdown" onclick="toggleDropdown(this)">
+                        <a href="#">Informasi ▾</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Pengumuman</a></li>
+                            <li><a href="#">Agenda</a></li>
+                            <li><a href="#">Prestasi</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Kontak</a></li>
+                    <li><a href="#" class="login-btn">Login ➞</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="visi">
+
+        <div class="visi-smk">
+            <h3>Visi & Misi SEKOLAH</h3>
+
+            <h5>Visi dan Misi SMKS Al Safitri Buton Selatan</h5>
+
+            <h4>Visi Sekolah :</h4>
+            <table>
+                <tr>
+                    <th></th>
+                    <td>“ Menjadi SMK berprestasi dan berbasis teknologi yang menghasilkan lulusan berakhlak mulia,
+                        terampil
+                        berkomunikasi dan berdaya saing tinggi di dunia usaha dan kerja “</td>
+                </tr>
+            </table>
+
+
+            <h4>Misi Sekolah :</h4>
+            <table>
+                <tr>
+                    <th>1</th>
+                    <td>Menyelenggarakan pendidikan dan pengajaran berbasis sistem informasi teknologi,</td>
+                </tr>
+                <tr>
+                    <th>2</th>
+                    <td>Meningkatkan mutu dan kurikulum yang sesuai dengan kebutuhan dunia usaha dan kerja,</td>
+                </tr>
+                <tr>
+                    <th>3</th>
+                    <td>Menanamkan nilai-nilai islam kepada peserta didik,</td>
+                </tr>
+                <tr>
+                    <th>4</th>
+                    <td>Mencetak peserta didik yang terampil berkomunikasi dan berdaya saing tinggi,</td>
+                </tr>
+                <tr>
+                    <th>5</th>
+                    <td>Meningkatkan kuantitas dan kualitas sarana dan prasarana,</td>
+                </tr>
+                <tr>
+                    <th>6</th>
+                    <td>Mengembangkan wawasan dan profesionalisme pendidik dan tenaga kependidikan.</td>
+                </tr>
+            </table>
+
+        </div>
+    </section>
+
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 SMK AL SAFITRI BUTON SELATAN. All rights reserved.</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+    <script>
+        function toggleMenu() {
+            const navMenu = document.getElementById("navMenu");
+            navMenu.classList.toggle("show");
+        }
+
+        function toggleDropdown(el) {
+            if (window.innerWidth <= 768) {
+                el.classList.toggle("active");
+            }
+        }
+    </script>
+
+</body>
+
+</html>
