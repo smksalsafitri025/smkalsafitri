@@ -1,0 +1,2 @@
+# smkalsafitri
+sebuah website sekolah
