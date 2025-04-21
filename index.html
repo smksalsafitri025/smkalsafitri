@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SMK AL SAFITRI BUTON SELATAN</title>
+    <link rel="stylesheet" href="css/styles.css" />
+</head>
+
+<body>
+
+    <!-- Header / Navigasi -->
+    <header class="navbar">
+        <div class="navbar-container">
+            <div class="navbar-left">
+                <img src="img/logo.png" alt="Logo STMIK" class="logo" />
+                <h1 class="brand">SMK</h1>
+                <span class="subtitle">AL SAFITRI BUTON SELATAN</span>
+            </div>
+            <nav class="navbar-right">
+                <div class="hamburger" onclick="toggleMenu()">☰</div>
+                <ul class="nav-menu" id="navMenu">
+                    <li><a href="#" class="active">Beranda</a></li>
+                    <li class="dropdown" onclick="toggleDropdown(this)">
+                        <a href="#">Profil ▾</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="/pages/profil.html">Profil</a></li>
+                            <li><a href="/pages/guru.html">Tenaga Pengajar</a></li>
+                            <li><a href="/pages/visi.html">Visi & Misi</a></li>
+                            <li><a href="#">Struktur Organisasi</a></li>
+                            <li><a href="#">Jurusan</a></li>
+                            <li><a href="#">Fasilitas</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Artikel</a></li>
+                    <li class="dropdown" onclick="toggleDropdown(this)">
+                        <a href="#">Informasi ▾</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Pengumuman</a></li>
+                            <li><a href="#">Agenda</a></li>
+                            <li><a href="#">Prestasi</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Kontak</a></li>
+                    <li><a href="#" class="login-btn">Login ➞</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+
+    <!-- Section: Home -->
+
+    <section id="home">
+        <img src="" alt="">
+        <h2>Selamat Datang di SMK AL Safitri Buton Selatan</h2>
+        <div class="slider">
+            <button class="prev" onclick="showPrev()">&#10094;</button>
+            <img id="slide-img" src="img/slide1.jpg" alt="Slide Gambar" />
+            <button class="next" onclick="showNext()">&#10095;</button>
+        </div>
+    </section>
+
+
+    <section id="layanan">
+        <span class="garis"></span>
+        <H2 class="layanan">Fitur Layanan</H2>
+        <div class="layanan-container">
+
+            <div class="layanan-item">
+                <img src="img/Download-new.png" alt="Download">
+                <a href="#">
+                    <p>Download</p>
+                </a>
+            </div>
+            <div class="layanan-item">
+                <img src="img/PMB.png" alt="SiPSB">
+                <a href="#">
+                    <p>SiPSB</p>
+                </a>
+            </div>
+            <div class="layanan-item">
+                <img src="img/Visi-misi-new.png" alt="Visi dan Misi">
+                <p>Visi dan Misi</p>
+            </div>
+            <div class="layanan-item">
+                <img src="img/Sambutan-New.png" alt="Sambutan">
+                <a href="sambutan.html">
+                    <p>Sambutan</p>
+                </a>
+            </div>
+            <div class="layanan-item">
+                <img src="img/Agenda-New.png" alt="Agenda">
+                <a href="#">
+                    <p>Agenda</p>
+                </a>
+            </div>
+            <div class="layanan-item">
+                <img src="img/Pengumuman-New.png" alt="Pengumuman">
+                <a href="#">
+                    <p>Pengumuman</p>
+                </a>
+            </div>
+        </div>
+        <span class="garis"></span>
+    </section>
+
+
+    <!-- Section: About -->
+    <section id="about">
+        <h2>Tentang Kami</h2>
+        <p>SMK AL SAFITRI BUTON SELATAN merupakan sekolah dasar yang berkomitmen untuk memberikan pendidikan berkualitas
+            sejak tahun
+            1990.</p>
+    </section>
+
+    <!-- Section: Galeri -->
+    <section id="galeri">
+        <h2>Galeri</h2>
+        <div class="galeri-container">
+            <img src="img/galeri1.jpg" alt="Kegiatan 1" />
+            <img src="img/galeri2.jpg" alt="Kegiatan 2" />
+            <img src="img/galeri3.jpg" alt="Kegiatan 3" />
+        </div>
+
+
+    </section>
+
+    <!-- Section: Prestasi -->
+    <section id="prestasi">
+        <h2>Prestasi Sekolah</h2>
+        <ul>
+            <li>Juara 1 Lomba Matematika tingkat Kabupaten - 2024</li>
+            <li>Finalis Olimpiade Sains Nasional - 2023</li>
+            <li>Juara 2 Futsal antar SD se-Kota - 2023</li>
+        </ul>
+    </section>
+
+    <!-- Section: Testimoni -->
+    <section id="testimoni">
+        <h2>Testimoni Alumni</h2>
+        <blockquote>
+            "Saya bangga pernah bersekolah di SMK AL SAFITRI BUTON SELATAN. Guru-gurunya inspiratif dan suasana
+            belajarnya
+            menyenangkan."
+            <br /><strong>- Andi, Alumni 2010</strong>
+        </blockquote>
+        <blockquote>
+            "Bekal dari SMK AL SAFITRI BUTON SELATAN membuat saya siap bersaing di jenjang pendidikan selanjutnya."
+            <br /><strong>- Rina, Alumni 2015</strong>
+        </blockquote>
+    </section>
+
+    <!-- Section: Kontak -->
+    <section id="kontak">
+        <h2>Kontak Kami</h2>
+        <p>Alamat: Jl. Pendidikan No.123, Jakarta</p>
+        <p>Email: info@sdncontoh01.sch.id</p>
+        <p>Telepon: (021) 123-4567</p>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 SMK AL SAFITRI BUTON SELATAN. All rights reserved.</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+    <script>
+        function toggleMenu() {
+            const navMenu = document.getElementById("navMenu");
+            navMenu.classList.toggle("show");
+        }
+
+        function toggleDropdown(el) {
+            if (window.innerWidth <= 768) {
+                el.classList.toggle("active");
+            }
+        }
+    </script>
+
+</body>
+
+</html>
