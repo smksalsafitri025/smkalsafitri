@@ -1,0 +1,283 @@
+.sambutan-section {
+  padding: 40px 20px;
+  background: #f9f9f9;
+  font-family: sans-serif;
+}
+
+.sambutan-container {
+  max-width: 900px;
+  margin: 0 auto;
+  background: white;
+  padding: 30px;
+  border-radius: 10px;
+}
+
+.sambutan-container h2 {
+  text-align: center;
+  color: #000000;
+  margin-bottom: 5px;
+}
+
+.sambutan-container h4 {
+  text-align: center;
+  color: #083d01;
+  margin-top: 0;
+}
+
+.meta-info {
+  text-align: center;
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+.sambutan-content {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.sambutan-text {
+  flex: 2;
+  font-size: 15px;
+  line-height: 1.6;
+  color: #333;
+}
+
+.sambutan-img {
+  flex: 1;
+  text-align: center;
+}
+
+.sambutan-img img {
+  max-width: 100%;
+  border-radius: 12px;
+}
+
+.profil-smk {
+  margin-top: 40px;
+}
+
+.profil-smk h4 {
+  background: #004d00;
+  color: white;
+  padding: 10px;
+  margin-bottom: 0;
+  width: 100%;
+}
+
+.profil-smk table {
+  width: 100%;
+  border-collapse: collapse;
+  background: #f5f5f5;
+}
+
+.profil-smk th,
+.profil-smk td {
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+  text-align: left;
+}
+
+.profil-smk th {
+  width: 30%;
+  background: #ffffff;
+}
+
+.sosmed-icons {
+  text-align: center;
+  font-size: 22px;
+  margin-top: 15px;
+}
+
+.sosmed-icons i {
+  margin: 0 10px;
+  cursor: pointer;
+}
+
+/* profil */
+
+.profil-section {
+  padding: 40px 20px;
+  background: #f9f9f9;
+  font-family: sans-serif;
+}
+
+.profil-container {
+  max-width: 900px;
+  margin: 0 auto;
+  background: white;
+  padding: 30px;
+  border-radius: 10px;
+}
+
+.profil-container h2 {
+  text-align: left;
+  color: #1a7d1a;
+  margin-bottom: 5px;
+}
+
+.profil-container h4 {
+  text-align: center;
+  color: #006400;
+  margin-top: 0;
+}
+
+.meta-info {
+  text-align: center;
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+.profil-content {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.profil-text {
+  flex: 2;
+  font-size: 15px;
+  line-height: 1.6;
+  color: #333;
+}
+
+.profil-img {
+  flex: 1;
+  text-align: center;
+}
+
+.profil-img img {
+  max-width: 100%;
+  border-radius: 12px;
+}
+
+.profil-smk {
+  margin-top: 40px;
+}
+
+.profil-smk h4 {
+  background: #004d00;
+  color: white;
+  padding: 10px;
+  margin-bottom: 0;
+}
+
+.profil-smk table {
+  width: 100%;
+  border-collapse: collapse;
+  background: #f5f5f5;
+}
+
+.profil-smk th,
+.profil-smk td {
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+  text-align: left;
+}
+
+.profil-smk th {
+  width: 30%;
+  background: #ffffff;
+}
+
+.sosmed-icons {
+  text-align: center;
+  font-size: 22px;
+  margin-top: 15px;
+}
+
+.sosmed-icons i {
+  margin: 0 10px;
+  cursor: pointer;
+}
+
+.guru-smk {
+  margin-top: 40px;
+}
+
+.guru-smk h4 {
+  background: #970000;
+  color: white;
+  padding: 10px;
+  margin-bottom: 0;
+}
+
+.guru-smk table {
+  width: 100%;
+  border-collapse: collapse;
+  background: #f5f5f5;
+}
+
+.guru-smk th {
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+  text-align: left;
+  color: #000000;
+}
+
+.guru-smk td {
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+  text-align: left;
+  font-weight: bold;
+  color: #01044b;
+}
+.guru-smk th {
+  width: 30%;
+  background: #ffffff;
+}
+
+/* visi */
+.visi-smk h3 {
+  color: rgb(0, 0, 0);
+  margin-bottom: 0;
+  text-align: center;
+}
+
+.visi-smk h4 {
+  background: #970000;
+  color: white;
+  padding: 10px;
+  margin-bottom: 0;
+  text-align: center;
+}
+.visi-smk h5 {
+  color: rgb(0, 0, 0);
+  margin-bottom: 0;
+  text-align: center;
+  font-size: 1rem;
+}
+
+.visi-smk p {
+  color: rgb(0, 0, 0);
+  padding: 12px;
+  left: 2rem;
+  position: relative;
+  margin-bottom: 0;
+}
+.visi-smk table {
+  width: 100%;
+  border-collapse: collapse;
+  background: #f5f5f5;
+}
+
+.guru-smk th {
+  padding: 1px;
+  border-bottom: 1px solid #ddd;
+  text-align: left;
+  color: #000000;
+}
+
+.visi-smk td {
+  padding: 25px 0px 1px 25px;
+  border-bottom: 1px solid #ddd;
+  right: -1rem;
+  color: #000000;
+}
+.visi-smk th {
+  width: 3%;
+  justify-content: space-between;
+  background: #ffffff;
+}
